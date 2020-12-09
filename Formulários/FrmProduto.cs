@@ -54,29 +54,36 @@ namespace TRAB_CRUD.Formulários
         }
         private void dgvTabela_SelectionChanged(object sender, EventArgs e)
         {
-            ConexaoProduto conexao = new ConexaoProduto();
-            int linha = 0;
-            linha = dgvTabela.CurrentRow.Index;
-            conexao.CodSelecionado = Convert.ToInt32(dgvTabela[0, linha].Value.ToString());
-            conexao.ExibirCampos();
-            
-            //PASSANDO VALORES PARA PROPRIEDADES DA CONEXAO PRODUTO
-            txtModelo.Text = conexao.Modelo;
-            txtCodigo.Text = conexao.CodSelecionado.ToString();
-            txtArmazenamento.Text = conexao.Armazenamento;
-            txtCor.Text = conexao.Cor;
-            txtPreco.Text = conexao.Preco.ToString();
-            txtSistOpera.Text = conexao.SistOpera;
-            cmbMarcas.SelectedItem = conexao.NomeMarca;
-            //
+            try
+            {
+                ConexaoProduto conexao = new ConexaoProduto();
+                int linha = 0;
+                linha = dgvTabela.CurrentRow.Index;
+                conexao.CodSelecionado = Convert.ToInt32(dgvTabela[0, linha].Value.ToString());
+                conexao.ExibirCampos();
 
-            if(conexao.Importado )
-            {
-                rdbImportado.Checked = true;
+                //PASSANDO VALORES PARA PROPRIEDADES DA CONEXAO PRODUTO
+                txtModelo.Text = conexao.Modelo;
+                txtCodigo.Text = conexao.CodSelecionado.ToString();
+                txtArmazenamento.Text = conexao.Armazenamento;
+                txtCor.Text = conexao.Cor;
+                txtPreco.Text = conexao.Preco.ToString();
+                txtSistOpera.Text = conexao.SistOpera;
+                cmbMarcas.SelectedItem = conexao.NomeMarca;
+                //
+
+                if (conexao.Importado)
+                {
+                    rdbImportado.Checked = true;
+                }
+                else
+                {
+                    rdbNacional.Checked = true;
+                }
             }
-            else
+            catch(NullReferenceException er)
             {
-                rdbNacional.Checked = true;
+                MessageBox.Show("Linha não encontrada"+ er.Message);
             }
         }
         private void CamposOn()

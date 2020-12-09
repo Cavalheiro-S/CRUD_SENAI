@@ -63,3 +63,16 @@ C:\Users\lucas\Desktop\TRAB_CRUD\TRAB_CRUD\obj\Debug\TRAB_CRUD.csproj.GenerateRe
 C:\Users\lucas\Desktop\TRAB_CRUD\TRAB_CRUD\obj\Debug\TRAB_CRUD.csproj.CoreCompileInputs.cache
 C:\Users\lucas\Desktop\TRAB_CRUD\TRAB_CRUD\obj\Debug\TRAB_CRUD.exe
 C:\Users\lucas\Desktop\TRAB_CRUD\TRAB_CRUD\obj\Debug\TRAB_CRUD.pdb
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\bin\Debug\TRAB_CRUD.exe.config
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\bin\Debug\TRAB_CRUD.exe
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\bin\Debug\TRAB_CRUD.pdb
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.Formulários.FrmFornecedor.resources
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.FrmLogin.resources
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.Formulários.FrmMenu.resources
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.Formulários.FrmProduto.resources
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.Properties.Resources.resources
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.csproj.GenerateResource.cache
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.exe
+C:\Users\lucas\Desktop\TRAB_CRUD\CRUD_SENAI\obj\Debug\TRAB_CRUD.pdb

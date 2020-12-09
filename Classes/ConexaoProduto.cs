@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
@@ -20,7 +21,7 @@ namespace TRAB_CRUD.Classes
         public string Cor { get; set; }
         public int CodigoMarca { get; set; }
         public bool Importado { get; set; }
-
+        
         //PROPRIEDADES PARA PESQUISAR
         public string PesqNome { get; set; }
         public string PesqId { get; set; }
@@ -29,6 +30,7 @@ namespace TRAB_CRUD.Classes
         public int CodSelecionado { get; set; }
             
         //PROPRIEDADES DE CONEXÃO
+        
         string conexao = Properties.Settings.Default.Conexao;
         bool add = false;
 
